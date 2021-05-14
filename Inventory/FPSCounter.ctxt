@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=FPSCounter
+comment0.text=\r\n\ <p>\r\n\ This\ is\ the\ implementation\ of\ the\ FPSCounter\ modular\ widget\ actor.\r\n\ </p>\r\n\ \r\n\ <p>\r\n\ The\ FPSCounter\ is\ a\ Greenfoot\ Actor\ that\ displays\ the\ FPS\ of\ a\ program,\ to\ a\ max\ of\ 60fps.\r\n\ It\ has\ customizable\ height,\ width,\ font\ size,\ font\ family,\ text\ color,\ background\ color,\r\n\ and\ whether\ or\ not\ it\ is\ transparent\ or\ not.\r\n\ </p>\r\n\ \r\n\ @author\ <p>Andrew\ Qiao</p>\r\n\ @version\ 1.1\r\n
+comment1.params=
+comment1.target=FPSCounter()
+comment1.text=\r\n\ Main\ constructor\ -\ The\ basic\ constructor\ that\ sets\ default\ values.\ Simple,\ but\ not\ flexible.\r\n
+comment2.params=isShowing
+comment2.target=FPSCounter(boolean)
+comment2.text=\r\n\ isShowing\ constructor\ -\ Is\ passed\ a\ boolean,\ determining\ whether\ the\ FPSCounter\ will\ be\ hidden\ or\ not.\r\n\ \r\n\ @param\ isShowing\ \ \ \ \ A\ boolean\ variable.\ Determines\ if\ the\ FPSCounter\ will\ be\ hidden\ or\ not\r\n
+comment3.params=width\ height\ fontSize
+comment3.target=FPSCounter(int,\ int,\ int)
+comment3.text=\r\n\ Simple\ constructor\ -\ User\ specifies\ the\ width,\ height,\ and\ fontSize\ of\ the\ FPSCounter.\r\n\ \r\n\ @param\ width\ \ \ \ \ \ \ \ \ Integer\ variable\ for\ the\ width\ of\ the\ FPSCounter.\r\n\ @param\ height\ \ \ \ \ \ \ \ Integer\ variable\ for\ the\ height\ of\ the\ FPSCounter.\r\n\ @param\ fontSize\ \ \ \ \ \ Integer\ variable\ for\ the\ font\ size\ of\ the\ text.\r\n
+comment4.params=width\ height\ fontSize\ fontName\ backgroundR\ backgroundG\ backgroundB\ textR\ textG\ textB\ isShowing\ prefix
+comment4.target=FPSCounter(int,\ int,\ int,\ java.lang.String,\ int,\ int,\ int,\ int,\ int,\ int,\ boolean,\ java.lang.String)
+comment4.text=\r\n\ The\ king\ FPSCounter\ constructor\ -\ Is\ passed\ multiple\ parameters,\ making\ it\ the\ most\ flexible.\r\n\ \r\n\ @param\ width\ \ \ \ \ \ \ \ \ Integer\ variable\ for\ the\ width\ of\ the\ FPSCounter.\r\n\ @param\ height\ \ \ \ \ \ \ \ Integer\ variable\ for\ the\ height\ of\ the\ FPSCounter.\r\n\ @param\ fontSize\ \ \ \ \ \ Integer\ variable\ for\ the\ font\ size\ of\ the\ text.\r\n\ @param\ fontName\ \ \ \ \ \ String\ variable\ for\ the\ name\ of\ the\ font\ for\ the\ text.\r\n\ @param\ backgroundR\ \ \ Integer\ variable\ for\ the\ Red\ value\ of\ the\ font\ color\ for\ the\ background.\r\n\ @param\ backgroundG\ \ \ Integer\ variable\ for\ the\ Green\ value\ of\ the\ font\ color\ for\ the\ background.\r\n\ @param\ backgroundB\ \ \ Integer\ variable\ for\ the\ Blue\ value\ of\ the\ font\ color\ for\ the\ background.\r\n\ @param\ textR\ \ \ \ \ \ \ \ \ Integer\ variable\ for\ the\ Red\ value\ of\ the\ font\ color\ for\ the\ text.\r\n\ @param\ textG\ \ \ \ \ \ \ \ \ Integer\ variable\ for\ the\ Green\ value\ of\ the\ font\ color\ for\ the\ text.\r\n\ @param\ textB\ \ \ \ \ \ \ \ \ Integer\ variable\ for\ the\ Blue\ value\ of\ the\ font\ color\ for\ the\ text.\r\n\ @param\ isShowing\ \ \ \ \ Boolean\ variable\ for\ whether\ or\ not\ the\ FPSCounter\ will\ be\ transparent\ or\ not.\r\n\ @param\ prefix\ \ \ \ \ \ \ \ The\ text\ that\ will\ be\ displayed\ before\ the\ FPS\ number\ (FPS\:\ )\r\n
+comment5.params=
+comment5.target=void\ update()
+comment5.text=\r\n\ update\ Method\:\r\n\ \r\n\ No\ parameters\r\n\ \r\n\ Calculates\ the\ FPS\ of\ the\ past\ second,\ and\ draws\ to\ the\ display\ accordingly.\r\n
+comment6.params=output
+comment6.target=void\ update(java.lang.String)
+comment6.text=\r\n\ update\ Method\ (overloaded\ x2)\:\r\n\ \r\n\ @param\ output\ \ \ \ String\ variable\ determining\ what\ will\ be\ output\ onto\ the\ display\r\n
+numComments=7

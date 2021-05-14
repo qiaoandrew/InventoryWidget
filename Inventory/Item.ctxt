@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ Item\ Class\r\n\ \r\n\ SuperClass\ to\ all\ other\ items,\ that\ the\ Trainer\ can\ pick\ up,\ and\ be\ added\ to\ the\ inventory\r\n\ \r\n\ @author\ Andrew\ Qiao\r\n\ @version\ April\ 2021\r\n
+comment1.params=
+comment1.target=void\ act()
+numComments=2

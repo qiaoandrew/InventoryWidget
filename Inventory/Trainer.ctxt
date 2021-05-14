@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Trainer
+comment0.text=\r\n\ <h1\ style\="color\:\ rgb(21,\ 52,\ 80);\ background-color\:\ rgb(206,\ 235,\ 251);\ text-align\:center;">Trainer\ Class</h1>\r\n\ \r\n\ <p>\r\n\ The\ Trainer\ class\ is\ an\ Actor\ that\ can\ move\ left,\ right,\ up,\ or\ down\ based\ on\ keyboard\ input.\r\n\ It\ also\ constantly\ checks\ for\ collision\ with\ items\ to\ pick\ them\ up\ and\ put\ them\ into\ the\ inventory.\r\n\ </p>\r\n\ \r\n\ <h4>Methods\:</h4>\r\n\ <ul>\r\n\ \ \ \ \ \ <li>act()\:\ Called\ every\ act,\ checks\ for\ keyboard\ input\ and\ calls\ checkCollision()</li>\r\n\ \ \ \ \ \ <li>checkCollision()\:\ Called\ every\ act,\ checks\ if\ the\ Trainer\ comes\ into\ contact\ with\ any\ item,\ and\ if\ so,\ adds\ it\ to\ the\ inventory</li>\r\n\ </ul>\r\n\ \r\n\ @author\ <b>Andrew\ Qiao</b>\r\n\ @version\ 1.1\r\n
+comment1.params=speed\ inventory
+comment1.target=Trainer(int,\ Inventory)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Called\ every\ act.\ Checks\ for\ keyboard\ input\ for\ directions,\ and\ moves\ accordingly.\ Also\ calls\ checkCollision().\r\n
+comment3.params=
+comment3.target=void\ checkCollision()
+comment3.text=\r\n\ Checks\ if\ the\ Trainer\ comes\ into\ contact\ with\ any\ item\ on\ all\ 4\ sides,\ and\ acts\ accordingly.\r\n
+numComments=4

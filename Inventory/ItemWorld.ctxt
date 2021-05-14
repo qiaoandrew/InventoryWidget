@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ItemWorld
+comment0.text=\r\n\ <p>ItemWorld\ is\ the\ setting\ of\ the\ Inventory\ demonstration.</p>\r\n\ \r\n\ <p>\r\n\ This\ World\ has\ the\ goal\ of\ demonstrating\ the\ usage\ of\ the\ Inventory\ actor.\r\n\ It\ is\ a\ simple\ game,\ where\ the\ user\ moves\ around\ the\ World,\ picking\ up\ and\ dropping\ items\ based\ on\ keyboard\ input.\r\n\ Simply\ moving\ over\ an\ item\ will\ pick\ it\ up.\r\n\ Selecting\ an\ inventory\ slot\ using\ keyboard\ numbers\ 1-9\ and\ pressing\ "p"\ will\ drop\ one\ count\ of\ that\ item.\r\n\ Pressing\ "o"\ will\ drop\ all\ of\ the\ items\ in\ that\ slot.\r\n\ These\ default\ keyboard\ interactions\ can\ be\ reconfigured\ to\ your\ liking\!\r\n\ All\ item\ changes\ will\ be\ displayed\ in\ the\ inventory\ accordingly.\r\n\ </p>\r\n\ \r\n\ <p>\r\n\ Creates\ an\ Inventory\ Actor,\ which\ will\ act\ as\ the\ inventory.\r\n\ It\ also\ creates\ a\ Trainer\ Actor,\ which\ will\ be\ controlled\ by\ the\ user.\ Objects\ that\ the\ Trainer\ touches\ will\ be\ displayed\ in\ the\ inventory.\r\n\ </p>\r\n\ \r\n\ <h4>Methods\:</h4>\r\n\ <ul>\r\n\ \ \ \ \ \ <li>act()\:\ Called\ every\ act,\ and\ checks\ for\ keyboard\ input\ accordingly</li>\r\n\ \ \ \ \ \ <li>spawnItems()\:\ Randomly\ spawns\ the\ various\ items\ in\ the\ World</li>\r\n\ </ul>\r\n\ \r\n\ <h4>Credits\:</h4>\r\n\ <ul>\r\n\ \ \ \ \ \ <li>Nintendo\ Co.,\ Ltd.\ for\ the\ image\ of\ Trainer</li>\r\n\ \ \ \ \ \ <li>Mojang\ Studios\ for\ the\ images\ of\ the\ various\ items</li>\r\n\ </ul>\r\n\ \r\n\ @author\ <b>Andrew\ Qiao</b>\r\n\ @version\ <b>1.1</b>\r\n
+comment1.params=
+comment1.target=ItemWorld()
+comment1.text=\r\n\ Constructor\ for\ MyWorld.\ Creates\ all\ starting\ Actors,\ sets\ the\ background\ image,\ and\ sets\ the\ paint\ order.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Called\ every\ act,\ spawns\ items,\ updates\ the\ FPSCounter\ and\ checks\ for\ keyboard\ input\ and\ acts\ accordingly.\r\n
+comment3.params=
+comment3.target=void\ spawnItems()
+comment3.text=\r\n\ Determines\ which\ item\ to\ spawn\ and\ where,\ if\ any.\r\n
+numComments=4
