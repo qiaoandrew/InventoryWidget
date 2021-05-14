@@ -8,7 +8,7 @@ This game has been created to demonstrate the effectiveness of the inventory wid
 - The number keys (1, 2, 3, 4...) can be used to select the different slots of the inventory (from left to right)
 - Press "p" to drop a single count of the item, and "o" to drop all of the currently selected item
 
-![InventoryWidget](Inventory/images/introduction.png "Inventory Widget Demonstration")
+![InventoryWidget](Inventory/images/world.png "Inventory Widget Demonstration")
 
 ## About the Widget...
 This inventory widget has been designed to be extremely customizable, and can be used in many different situations. It can be customized to your liking in the following ways:
