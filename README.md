@@ -11,7 +11,7 @@ This game has been created to demonstrate the effectiveness of the inventory wid
 ![InventoryWidget](Inventory/images/world.png "Inventory Widget Demonstration")
 
 ## Running the Scenario...
-1. Download [Greenfoot](https://www.greenfoot.org/download). (Greenfoot is an IDE for creating games and simulations)
+1. Download [Greenfoot](https://www.greenfoot.org/download) (Greenfoot is an IDE for creating games and simulations).
 2. Download the [Inventory.gfar](Inventory.gfar) file.
 3. Open the Inventory.gfar file. This will create a folder with all the classes and other assets.
 
