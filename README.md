@@ -20,3 +20,10 @@ This inventory widget has been designed to be extremely customizable, and can be
 - Scale of the images in comparison to their in-game image size
 - Transparency of the inventory widget
 - Space between the the edge of the inventory and each slot
+
+## How To Use It...
+The inventory class contains a detailed comment, explaining step by step how to implement this widget into your own scenarios.
+
+## Credits...
+- Nintendo Co., Ltd. for the image of Trainer
+- Mojang Studios for the images of the various items and the background
