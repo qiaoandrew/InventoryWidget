@@ -12,7 +12,7 @@ This game has been created to demonstrate the effectiveness of the inventory wid
 
 ## About the Widget...
 This inventory widget has been designed to be extremely customizable, and can be used in many different situations. It can be customized to your liking in the following ways:
-- Colors of the widget (numbers, slot background, outline, selected slot)
+- Colors of the widget (numbers, slot background, outline, selected slot outline)
 - Width and height of the image you would like to display each slot
 - Number of slots the inventory has
 - Maximum number of objects each slot can hold
