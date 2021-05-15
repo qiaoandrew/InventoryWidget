@@ -1,4 +1,4 @@
-# InventoryWidget
+# Modular Inventory Widget
 A modular and extremely customizable inventory widget I created for my ICS4U class.
 
 ## A Quick Overview...
